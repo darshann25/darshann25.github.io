@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
     $('#slides').superslides({
         animation: 'fade',
         play: 5000,
@@ -11,6 +12,14 @@ $(document).ready(function() {
         loop: true,
         startDelay: 1000,
         showCursor: false
+    });
+    
+    $('#slides').ready(function() {
+        
+        setTimeout(function(){
+            $('#loading').hide();
+            $('#loading-image').hide();
+        }, 5000);
     });
 
     $('.owl-carousel').owlCarousel({
@@ -59,7 +68,7 @@ $(document).ready(function() {
         startLeft: true,
         alternate: true,
         animate: "slide",
-        arrows: false
+        arrows: true
     });
 
 });
