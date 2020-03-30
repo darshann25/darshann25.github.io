@@ -6,7 +6,7 @@ $(document).ready(function() {
     });
 
     var typed = new Typed(".typed", {
-        strings: ["Data Scientist.", "Machine Learning Engineer.", "Management Consultant.", "Student.","Coffee Mug Hoarder.","Nostalgic Movie Binger."],
+        strings: ["Data Scientist", "Machine Learning Engineer", "Management Consultant", "Student","Coffee Mug Hoarder","Nostalgic Movie Binger"],
         typeSpeed: 100,
         loop: true,
         startDelay: 1000,
@@ -29,6 +29,7 @@ $(document).ready(function() {
             938:{
                 items:4
             }
+
         }
     });
 
