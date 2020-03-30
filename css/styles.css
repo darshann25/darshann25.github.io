@@ -128,3 +128,28 @@ body {
     height: 40%;
     display: inline-block;
 }
+
+.vtimeline-icon {
+    background: #60a3bc;
+}
+
+.vtimeline-content {
+    background: #fff;
+    border-radius: 30%;
+}
+
+.vtimeline-date {
+    color: #60a3bc;
+    font-size: medium;
+}
+
+.timelineImage {
+    width: 50%;
+    height: 50%;
+    padding-bottom: 15px;
+}
+
+.pwc {
+    width: 35%;
+    height: 35%;
+}

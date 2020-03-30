@@ -55,4 +55,11 @@ $(document).ready(function() {
 
     });
 
+    $('#timelineSection').verticalTimeline({
+        startLeft: true,
+        alternate: true,
+        animate: "slide",
+        arrows: false
+    });
+
 });
