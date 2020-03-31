@@ -68,7 +68,8 @@ body {
     max-width: 100%;
 }
 
-.skillsSection {
+.skillsSection,
+.contactSection {
     background-color: #60a3bc;
     color: #fff;
     
@@ -159,7 +160,7 @@ body {
     height: 100%;
     top: 0;
     left: 0;
-    position: absolute;
+    position: fixed;
     display: block;
     opacity: 1.0;
     background-color: #676D89;
@@ -172,4 +173,114 @@ body {
     left: calc(50% - 250px);    
     z-index: 100;
 
+}
+
+.squareItem {
+    margin-top: 30px;
+    position: relative;
+}
+
+.squareInnerContainer {
+    position: relative;
+    padding: 50px 15px 35px;
+    text-align: center;
+    border: 2px solid #444;
+    border-top: none;
+
+}
+
+.squareInnerContainer:before,
+.squareInnerContainer:after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    width: 30%;
+    border-bottom: 2px solid #444;
+}
+
+.squareInnerContainer:before {
+    right: 0px;
+}
+
+.squareInnerContainer:after {
+    left: 0px;
+}
+
+.squareContent h2 {
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: #60a3bc;
+}
+
+.squareContent h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.squareIcon {
+    position: absolute;
+    left: 50%;
+    top: -30px;
+    width: 40%;
+    height: 60px;
+    font-size: 45px;
+    margin-left: -20%;
+    color: #444;
+}
+
+.contactButton {
+    color: #fff;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
+
+.contactButton:hover {
+    text-decoration: none;
+    color: #60a3bc;
+    background-color: #fff;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+
+}
+
+.icon-li {
+    display: inline;
+}
+
+.icon {
+    opacity: .4;
+    color: #fff;
+    padding: 5px 5px
+}
+
+.icon:hover {
+    text-decoration: none;
+}
+
+.list-inline {
+    padding: 15px 20px;
+    margin-top: 20px;
+}
+
+.copyrightSection {
+    background-color: #000;
+    color: #fff;
+    padding: 30px 5px;
+}
+
+.copyrightSection p {
+    margin: 0;
 }
