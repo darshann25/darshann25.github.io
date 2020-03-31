@@ -150,6 +150,11 @@ body {
     padding-bottom: 15px;
 }
 
+.star {
+    width: 30%;
+    height: 30%;
+}
+
 .pwc {
     width: 35%;
     height: 35%;
