@@ -64,7 +64,7 @@ $(document).ready(function() {
 
         }
 
-        if(!countUpFinished && window.pageYOffset > statsTopOffset - $(window).height() + 200) {
+        if(!countUpFinished && window.pageYOffset > statsTopOffset - $(window).height() + 50) {
             $(".counter").each(function() {
                 var element = $(this);
                 var endVal = parseInt(element.text());
@@ -73,10 +73,8 @@ $(document).ready(function() {
                     duration: 30
                 });
             });
-
             countUpFinished = true;
-        }
-
+        }        
     });
 
     $('#timelineSection').verticalTimeline({
