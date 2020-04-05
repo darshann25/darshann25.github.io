@@ -8,7 +8,7 @@ $(document).ready(function() {
 
     var typed = new Typed(".typed", {
         strings: ["Data Scientist", "Machine Learning Engineer", "Management Consultant", "Student","Coffee Mug Hoarder","Nostalgic Movie Binger"],
-        typeSpeed: 100,
+        typeSpeed: 75,
         loop: true,
         startDelay: 1000,
         showCursor: false
@@ -84,6 +84,39 @@ $(document).ready(function() {
         alternate: true,
         animate: "slide",
         arrows: true
+    });
+
+    $("[data-fancybox]").fancybox();
+
+    $(".items").isotope({
+        filter: '*',
+        animationOptions: {
+            duration: 1500,
+            easing: 'linear',
+            queue: false
+        }
+    });
+
+    $("#filters a").click(function() {
+
+        $("#filters .current").removeClass("current");
+        $(this).addClass("current");
+
+        var selector = $(this).attr("data-filter");
+        console.log(selector)
+        console.log('.items')
+
+        $(".items").isotope({
+            filter: selector,
+            animationOptions: {
+                duration: 1500,
+                easing: 'linear',
+                queue: false
+            }
+        });
+
+        return false;
+
     });
 
 });
