@@ -425,3 +425,36 @@ ul {
 .items {
     padding: 0;
 }
+
+#navigation {
+    background-color: #60a3bc;
+    padding: 20px 10px;
+    z-index: 98;
+    width: 100%;
+}
+
+#navigation li {
+    padding: 0 10px;
+}
+
+#navigation li a {
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+    color: #fff;
+    padding: 0px;
+    margin-left: 10px;
+}
+
+.navbar-toggler-icon {
+    background: url('../img/icons/menu.png');
+    background-size: 100%;
+}
+
+.fixedNav #navigation {
+    position: fixed;
+    top: 0px;
+}
