@@ -458,3 +458,11 @@ ul {
     position: fixed;
     top: 0px;
 }
+
+.overview-icons {
+    position: absolute;
+    align-content: center;
+    bottom: 5px;
+    left: 35%;
+    z-index: 98;
+}
