@@ -141,5 +141,4 @@ $(document).ready(function() {
         $("html, body").animate({ scrollTop: targetPosition - 50}, "slow");
     });
 
-
 });

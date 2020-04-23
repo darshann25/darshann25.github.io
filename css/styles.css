@@ -466,3 +466,9 @@ ul {
     left: 35%;
     z-index: 98;
 }
+
+@media (max-width: 40em) {
+    .overview-icons {
+        display: none;
+    }
+}
