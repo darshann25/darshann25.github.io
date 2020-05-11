@@ -472,3 +472,20 @@ ul {
         display: none;
     }
 }
+
+@media (max-width: 992px) {
+    .vtimeline-icon {
+        left: 1.5%;
+        right: auto;
+        margin: 0;
+    }
+
+    .vtimeline-date {
+        background-color: #fff;
+        padding: 3%;
+    }
+}
+
+.timeline_list {
+    text-align: left;
+}
