@@ -484,6 +484,10 @@ ul {
         background-color: #fff;
         padding: 3%;
     }
+
+    .about_me {
+        padding-top: 15px;
+    }
 }
 
 .timeline_list {
