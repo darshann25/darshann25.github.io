@@ -461,9 +461,9 @@ ul {
 
 .overview-icons {
     position: absolute;
-    align-content: center;
+    text-align: center;
     bottom: 5px;
-    left: 33%;
+    width: 100%;
     z-index: 98;
 }
 
